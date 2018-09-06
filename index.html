@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Male Female Using Custom Directives</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script> -->
+    
+</head>
+<body ng-app="app" ng-controller="mainController">
+
+    <div>
+        <div class="navbar navbar-inverse">
+            <h2 style="color: white; text-align: center">Male Female Using Custom Directives and Custom Service</h2>
+        </div>
+        
+        <div ng-repeat="x in persons" class="col-md-4">
+            <per-details></per-details>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

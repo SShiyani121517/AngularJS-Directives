@@ -1,0 +1,28 @@
+<!-- <div class="panel panel-primary"> -->
+<div ng-class='(x.gender === "M") ? "panel panel-primary" : "panel panel-danger"'>
+    <div class="panel-heading">
+        <h4>{{x.name}}</h4>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-4"><strong>Person Id:</strong></div>
+            <div class="col-md-8">{{x.id}}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><strong>Name:</strong></div>
+            <div class="col-md-8">{{x.name}}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><strong>Gender:</strong></div>
+            <div class="col-md-8">{{x.gender}}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><strong>Email:</strong></div>
+            <div class="col-md-8">{{x.email}}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><strong>City:</strong></div>
+            <div class="col-md-8">{{x.city}}</div>
+        </div>
+    </div>
+</div>
